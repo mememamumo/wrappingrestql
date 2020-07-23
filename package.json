@@ -17,11 +17,15 @@
   },
   "homepage": "https://github.com/mememamumo/wrappingrestql#readme",
   "dependencies": {
+    "apollo-server-core": "^2.16.0",
+    "apollo-server-express": "^2.16.0",
+    "apollo-server-lambda": "^2.16.0",
     "babel-cli": "^6.26.0",
     "babel-node": "0.0.1-security",
     "babel-preset-env": "^1.7.0",
     "babel-preset-stage-3": "^6.24.1",
     "global": "^4.4.0",
+    "graphql-playground-html": "^1.6.25",
     "graphql-yoga": "^1.18.3",
     "nodemon": "^2.0.4"
   }
