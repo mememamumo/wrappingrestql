@@ -1,0 +1,28 @@
+{
+  "name": "wrappingrestql",
+  "version": "1.0.0",
+  "description": "Wrapping a REST API with GraphQL",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mememamumo/wrappingrestql.git"
+  },
+  "author": "Yu Na Lee <mememamumo@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mememamumo/wrappingrestql/issues"
+  },
+  "homepage": "https://github.com/mememamumo/wrappingrestql#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-node": "0.0.1-security",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "global": "^4.4.0",
+    "graphql-yoga": "^1.18.3",
+    "nodemon": "^2.0.4"
+  }
+}
