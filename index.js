@@ -7,4 +7,4 @@ const server = new GraphQLServer({
 	resolvers
 });
 
-server.start(() => console.log("🤡Graphql Server Running"));
+server.start({ port: 7000 },() => console.log("🤡Graphql Server Running"));
