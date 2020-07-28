@@ -5,6 +5,7 @@ type Movie {
 	description_intro: String
 	language: String
 	medium_cover_image: String
+	background_image: String
 	genres: [String]
 }
 
