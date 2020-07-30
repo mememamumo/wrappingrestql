@@ -11,6 +11,6 @@ const server = new GraphQLServer({
 
 // server.start({ port: 7000 },() => console.log("🤡Graphql Server Running"));
 
-server.listen({ port: process.env.PORT || 7000 }).then(({ url }) => {
+server.start({ port: process.env.PORT || 7000 }).then(({ url }) => {
   console.log(`🚀 Server ready at ${url}`);
 });
